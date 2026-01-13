@@ -8,14 +8,13 @@ This project presents a rigorous statistical analysis of 150 students across thr
 
 ## Project Structure
 ```
-├── .gitignore
-├── README.md
-├── assets/
-│   └── community_banner.png
-└── data/
-    ├── student_aptitude_data.csv
-    ├── student_combined_data.csv
-    └── student_performance_data.csv
+.
+├── README.md                        # This file
+├── assets                           # Complete Jupyter notebook with all calculations/
+│   └── logo.jpg                     # company logo         
+├── analysis_notebook.ipynb          # analysis report        
+├── report in progress.pdf           # analysis report
+└── requirements.txt                 # Python dependencies
 ```
 
 ## Research Questions
