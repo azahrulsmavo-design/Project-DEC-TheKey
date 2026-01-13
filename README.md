@@ -1,7 +1,9 @@
 # DEC Project Learn
 
-![Data Enthusiast Community](assets/community_banner.png)
-![The Key](assets/the_key.png)
+<p align="center">
+  <img src="assets/the_key.png" alt="The Key" width="400" />
+</p>
+
 ## Project Overview
 This project presents a rigorous statistical analysis of 150 students across three English course levels (Advanced, Intermediate, Foundation) to validate the effectiveness of The Key's course placement system. The study examines the relationship between aptitude test scores and actual performance to ensure students are placed in appropriate learning environments.
 
