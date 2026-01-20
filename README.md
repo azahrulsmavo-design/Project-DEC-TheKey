@@ -10,13 +10,16 @@ This project presents a rigorous statistical analysis of 150 students across thr
 
 ## Project Structure
 ```
-.
-├── README.md                        # This file
-├── assets                           # Complete Jupyter notebook with all calculations/
-│   └── logo.jpg                     # company logo         
-├── analysis_notebook.ipynb          # analysis report        
-├── report in progress.pdf           # analysis report
-└── requirements.txt                 # Python dependencies
+root/
+├── data/                    # Dataset files
+├── assets/                  # Generated images (plots)
+├── reports/                 # Markdown reports
+├── src/                     # Source code
+│   ├── notebooks/           # Jupyter notebooks for initial analysis
+│   ├── scripts/             # Python scripts for visualizations and tests
+│   └── utils/               # Helper utilities
+├── Final_Analysis.ipynb     # The final comprehensive analysis notebook
+└── README.md
 ```
 
 ## Research Questions

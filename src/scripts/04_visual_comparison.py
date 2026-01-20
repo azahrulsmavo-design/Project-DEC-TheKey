@@ -11,8 +11,8 @@ def main():
 
     df["course_level"] = pd.Categorical(df["course_level"], categories=order, ordered=True)
 
-    perf_stats = df.groupby("course_level")["performance_score"].agg(["mean", "std"]).reindex(order)
-    apt_stats  = df.groupby("course_level")["aptitude_score"].agg(["mean", "std"]).reindex(order)
+    perf_stats = df.groupby("course_level", observed=False)["performance_score"].agg(["mean", "std"]).reindex(order)
+    apt_stats  = df.groupby("course_level", observed=False)["aptitude_score"].agg(["mean", "std"]).reindex(order)
 
     r = df["performance_score"].corr(df["aptitude_score"])
 
