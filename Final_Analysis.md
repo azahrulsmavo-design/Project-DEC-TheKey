@@ -491,8 +491,6 @@ print(tukey_apt)
     -------------------------------------------------------------
     
     --- Tukey HSD Post-Hoc Test (Aptitude Score) ---
-    
-
           Multiple Comparison of Means - Tukey HSD, FWER=0.05      
     ===============================================================
       group1      group2    meandiff p-adj  lower    upper   reject
