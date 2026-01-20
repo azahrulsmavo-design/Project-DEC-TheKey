@@ -23,6 +23,7 @@ from scipy.stats import f_oneway, shapiro, levene
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
+from scipy.stats import pearsonr
 
 # Plotting setup
 sns.set(style="darkgrid")
@@ -491,6 +492,8 @@ print(tukey_apt)
     -------------------------------------------------------------
     
     --- Tukey HSD Post-Hoc Test (Aptitude Score) ---
+    
+
           Multiple Comparison of Means - Tukey HSD, FWER=0.05      
     ===============================================================
       group1      group2    meandiff p-adj  lower    upper   reject
